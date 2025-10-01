@@ -101,3 +101,6 @@ with st.expander("ℹ️ O aplikaci"):
     - Vykreslení kružnice s body a legendou
     - Export do PDF včetně grafu a parametrů
     """)
+pdf.cell(200, 10, txt="Vystup - Body na kruznici", ln=True, align='C')
+pdf.cell(200, 10, txt="Stred: (0.0, 0.0)", ln=True)
+pdf.cell(200, 10, txt="Barva: blue", ln=True)
